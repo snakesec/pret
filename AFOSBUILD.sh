@@ -4,7 +4,7 @@ python3 -m venv /opt/ANDRAX/pret
 
 source /opt/ANDRAX/pret/bin/activate
 
-/opt/ANDRAX/pret/bin/pip3 install requests colorama pysnmp
+/opt/ANDRAX/pret/bin/pip3 install requests colorama pysnmp==4.4.12 pyasn1==0.6.0
 
 if [ $? -eq 0 ]
 then
