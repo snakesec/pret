@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source /opt/ANDRAX/pret/bin/activate
+
+/opt/ANDRAX/pret/bin/python3 /opt/ANDRAX/pret/package/pret.py "$@"
